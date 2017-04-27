@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+df = read_csv('檔名.csv')
+df.plot.scatter(x='行名稱',y = '行名稱',color = 'blue' )
+plot.show
+
+---------------
+df.plot()
+
