@@ -6,6 +6,8 @@ df = read_csv('檔名.csv')
 df.plot.scatter(x='行名稱',y = '行名稱',color = 'blue' )
 plot.show
 
+plot methods:
+'bar' 'hist' 'box' 'kde' 'area' 'scatter' 'hexbin' 'pie'
 ---------------
 df.plot()
 
