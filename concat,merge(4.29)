@@ -133,7 +133,7 @@ res = pd.merge(left,right,left_index = True,right_index = True)
 3  K7  K11    K3   7  11     3
 '''
 
-res = pd.merge(left,right,on= 'Key',suffixes = ['_left','_right'],how = 'outer') # name is same but content is different
+res = pd.merge(left,right,on= 'Key',suffixes = ['_left','_right'],how = 'outer') # suffixes name is same but content is different
 '''
   A_left B_left Key A_right B_right
 0     K4     K8  K0     NaN     NaN
